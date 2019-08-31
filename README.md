@@ -23,3 +23,5 @@ Soal 6 A
 Soal 6 B
 Dijalankan di browser : localhost/website/data_statis.php dan sebelumnya sudah mengaktifkan Apache&MySql di Xampp
 Folder website diletakkan di C:/xampp/htdocs, di dalam folder website terdapat file data_statis.php, koneksi.php, logo.png, dan floder css dan folder js
+
+Soal 6 C Belum Selesai ^_^"
