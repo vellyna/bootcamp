@@ -7,18 +7,18 @@ function is_username_valid($username)
 {
     if(preg_match("/^([a-zA-Z][a-zA-Z0-9]{5,9}$)+/", $username)) 
     {
-        echo "TRUE<br>";
+        echo "TRUE\n";
     } else {
-        echo "FALSE<br>";
+        echo "FALSE\n";
     }
 }
 function is_password_valid($password)
 {
     if(preg_match("/^(?=.{8,}$)(?=.[a-z])(?=.*?[A-Z])(?=.*?[0-9])(?=.*?\W).*$/", $password)) 
     {
-        echo "TRUE<br>";
+        echo "TRUE\n";
     } else {
-        echo "FALSE<br>";
+        echo "FALSE\n";
     }
 }
 is_username_valid($username1);
