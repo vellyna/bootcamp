@@ -1,5 +1,4 @@
 <?php
-header('Content-type: application/json');
 $biodata = array(
 	'name' => ('Vellyna Angelicha Sitorus'), 
 	'age' => 20, 
